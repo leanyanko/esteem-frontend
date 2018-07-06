@@ -31,6 +31,7 @@ class ListJobs extends Component {
       ? this.state.jobs.map(job => (
           <Job
             className="job"
+            key={job._id}
             title={job.title}
             description={job.description}
             city={job.city}
