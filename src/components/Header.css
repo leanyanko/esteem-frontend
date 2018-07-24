@@ -1,2 +1,16 @@
 .header {
-  height: 100px; }
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin: 40px; }
+
+.menu {
+  display: flex;
+  justify-content: flex-end; }
+
+.btn {
+  height: 50px;
+  width: 80px;
+  margin: 10px;
+  color: white;
+  background-color: #219329; }
