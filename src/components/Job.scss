@@ -1,19 +1,41 @@
+$color-green: #219329;
+$color-dark-grey: #41424c;
+$font: Arial, sans-serif;
+$height: 70px;
+
 .job {
   border: 1px solid gray;
-  height: 70px;
+  border-top: 0px;
+  height: $height;
   margin: 0px;
+  font-family: $font;
+  font-size: 1.3em;
+  color: $color-dark-grey;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+
+  span {
+    display: flex;
+    align-content: flex-start;
+  }
   // width: 70%;
   // align-self: center;
   // justify-content: flex-start;
 }
 
 .title {
-  float: left;
   margin: 20px;
   width: 30%;
 }
 
 .description {
-  float: left;
   margin: 20px;
+}
+
+.clogo {
+  width: 70px;
+  height: 100%;
+
+  background-color: pink;
 }

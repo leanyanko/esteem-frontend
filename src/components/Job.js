@@ -10,8 +10,11 @@ class Job extends Component {
   render() {
     return (
       <div className="job">
+        <span className="clogo" />
         <span className="title"> {this.props.title} </span>
-        <span className="description">{this.props.description}</span>
+        <span className="description">
+          {this.props.city}, {this.props.country}
+        </span>
       </div>
     );
   }

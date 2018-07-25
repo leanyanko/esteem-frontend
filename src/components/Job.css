@@ -1,13 +1,26 @@
 .job {
   border: 1px solid gray;
+  border-top: 0px;
   height: 70px;
-  margin: 0px; }
+  margin: 0px;
+  font-family: Arial, sans-serif;
+  font-size: 1.3em;
+  color: #41424c;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row; }
+  .job span {
+    display: flex;
+    align-content: flex-start; }
 
 .title {
-  float: left;
   margin: 20px;
   width: 30%; }
 
 .description {
-  float: left;
   margin: 20px; }
+
+.clogo {
+  width: 70px;
+  height: 100%;
+  background-color: pink; }
