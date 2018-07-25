@@ -1,9 +1,7 @@
 .job {
   border: 1px solid gray;
   height: 70px;
-  width: 70%;
-  align-self: center;
-  justify-content: flex-start; }
+  margin: 0px; }
 
 .title {
   float: left;

@@ -42,7 +42,19 @@ class ListJobs extends Component {
   }
 
   render() {
-    return <div className="listjobs">{this.showJobs()}</div>;
+    return (
+      <div className="listjobs">
+        <div id="wrapper">
+          <div id="filter" className="row">
+            <input type="text" placeholder="Keywords" />
+            <input type="text" placeholder="Location" />
+            <input type="text" placeholder="Any Category" />
+            <button className="btn btn-default dropdown-toggle">Search</button>
+          </div>
+          <div className="row">{this.showJobs()}</div>
+        </div>
+      </div>
+    );
   }
 }
 

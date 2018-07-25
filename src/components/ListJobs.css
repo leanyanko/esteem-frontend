@@ -2,4 +2,25 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  justify-content: center; }
+  justify-content: center;
+  padding: 0px; }
+
+#wrapper {
+  width: 70%;
+  align-self: center;
+  justify-content: flex-start;
+  padding: 0px; }
+
+#filter {
+  background-color: #219329;
+  height: 130px;
+  border-radius: 1px; }
+  #filter input {
+    height: 40px;
+    margin: 10px;
+    width: 23%;
+    margin-top: 5%;
+    border-radius: 5px;
+    padding-left: 3%; }
+  #filter button {
+    color: #41424c; }
