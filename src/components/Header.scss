@@ -1,4 +1,4 @@
-$color-green: #219329;
+$color-green: #7dc246;
 $color-dark-grey: #41424c;
 $font: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 
@@ -7,14 +7,24 @@ $font: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   display: flex;
   justify-content: space-between;
   margin: 40px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 20px;
 }
 
-#logo {
-  font-family: $font;
-  font-weight: bold;
-  font-size: 2.3em;
+#sitetitle {
+  // font-family: "Varela Round", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  line-height: 1.5;
+  vertical-align: middle;
+  font: 700 22px / normal Montserrat, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #666666;
+  //font-weight: bold;
+  font-size: 36px;
   margin-top: 1%;
-  color: $color-dark-grey;
 }
 
 .menu {

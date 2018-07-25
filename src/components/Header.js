@@ -5,7 +5,10 @@ class Header extends Component {
   render() {
     return (
       <div className="header">
-        <span id="logo">ESSTEEM JOB REFERRAL CONTESTS</span>
+        <h1 id="sitetitle">
+          <span>ESSTEEM JOB REFERRAL CONTESTS</span>
+        </h1>
+
         <span class="menu">
           <div />
 

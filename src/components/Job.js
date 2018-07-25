@@ -13,6 +13,7 @@ class Job extends Component {
         <span className="clogo" />
         <span className="title"> {this.props.title} </span>
         <span className="description">
+          <span className="glyphicon glyphicon-map-marker" />
           {this.props.city}, {this.props.country}
         </span>
       </div>

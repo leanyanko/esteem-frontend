@@ -6,21 +6,23 @@
   padding: 0px; }
 
 #wrapper {
-  width: 70%;
+  width: 85%;
   align-self: center;
   justify-content: flex-start;
   padding: 0px; }
 
 #filter {
-  background-color: #219329;
-  height: 130px;
+  box-shadow: inset 0 4px 0 rgba(255, 255, 255, 0.5);
+  -webkit-font-smoothing: antialiased;
+  background-color: #7dc246;
+  height: 100px;
   border-radius: 1px; }
   #filter input {
     height: 40px;
     margin: 10px;
     width: 23%;
-    margin-top: 5%;
-    border-radius: 5px;
+    margin-top: 3%;
+    border-radius: 10px;
     padding-left: 3%; }
   #filter button {
     color: #41424c; }
