@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Header.css";
+import Login from './Login';
 
 class Header extends Component {
   render() {
@@ -15,6 +16,7 @@ class Header extends Component {
           <button className="btn">ABOUT</button>
           <button className="btn">POST JOB</button>
           <button className="btn">LOGIN</button>
+          <Login/>
         </span>
       </div>
     );
