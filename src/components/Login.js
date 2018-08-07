@@ -7,7 +7,7 @@ class Login extends Component {
     super(props);
     this.state = {
         user: {
-            login: '',
+            username: '',
             password: ''
         }
     };
@@ -23,14 +23,14 @@ class Login extends Component {
 
   login() {
     const { user } = this.state;
-    if (user.login === '' || user.password === '') return;
+    if (user.username === '' || user.password === '') return;
     userService.signup(user);
   }
 
   render() {
     return (
       <div className="login">
-        <input type="text" onChange={this.inputHandler.bind(this, 'login')} />
+        <input type="text" onChange={this.inputHandler.bind(this, 'username')} />
         <input type="password" onChange={this.inputHandler.bind(this, 'password')} />
         <button onClick={() => this.login()}>Login</button>
       </div>
