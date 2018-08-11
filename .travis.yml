@@ -1,2 +1,5 @@
-language: node.js
+language: js
 install: npm install
+script: 
+  - npm test
+  -npm start
