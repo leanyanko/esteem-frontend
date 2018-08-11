@@ -7,4 +7,8 @@ userService.signup = (user) => {
   return axios.post(`${baseUrl}/signup`, user);
 };
 
+userService.login = (user) => {
+  return axios.post(`${baseUrl}/login`, user);
+};
+
 export default userService;

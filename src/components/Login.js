@@ -12,6 +12,7 @@ class Login extends Component {
         }
     };
     this.login = this.login.bind(this);
+    this.signup = this.signup.bind(this);
   }
 
   inputHandler(property, e) {
@@ -21,10 +22,16 @@ class Login extends Component {
     console.log('user: ', this.state.user);
   }
 
-  login() {
+  signup() {
     const { user } = this.state;
     if (user.username === '' || user.password === '') return;
     userService.signup(user);
+  }
+
+  login() {
+    const { user } = this.state;
+    if (user.username === '' || user.password === '') return;
+    userService.login(user);
   }
 
   render() {
@@ -32,7 +39,9 @@ class Login extends Component {
       <div className="login">
         <input type="text" onChange={this.inputHandler.bind(this, 'username')} />
         <input type="password" onChange={this.inputHandler.bind(this, 'password')} />
+        
         <button onClick={() => this.login()}>Login</button>
+        <button onClick={() => this.signup()}>Signup</button>
       </div>
     );
   }
